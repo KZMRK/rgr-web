@@ -1,5 +1,5 @@
 header {
-    height: 120px;
+    height: 130px;
     background-color: #FFF2D9;
     display: flex;
     align-items: center;
@@ -13,7 +13,7 @@ header {
     margin: 0 auto;
 }
 
-.header_content {
+.header-content {
     display: flex;
     align-items: center;
     width: 100%;
@@ -38,10 +38,17 @@ header {
 }
 
 .nav__item {
+    font-family: 'Mulish', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 16px;
     line-height: 23px;
     color: #1F1534;
     text-decoration: none;
+    opacity: 0.5;
+}
+
+.nav__item.active {
+    font-weight: 700;
+    opacity: 1;
 }
