@@ -1,0 +1,146 @@
+.slider {
+    width: 1120px;
+    height: 470px;
+    background-color: #FFA564;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider_wrapper{
+    background-color: #FFF2D9;
+}
+
+.slider_title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+    text-align: center;
+    padding: 100px;
+}
+
+.slider .slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transition: left 0.5s ease;
+}
+
+.slider .slide.active {
+    left: 0;
+}
+
+.slider h2 {
+    padding-top: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.slider .line {
+    width: 56px;
+    height: 2.2px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin: 20px auto;
+}
+
+.slider .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 120px;
+}
+
+.slider .cat img {
+    width: 207px;
+    height: 210px;
+}
+
+.slider .cat p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.slider .description{
+    padding: 30px;
+    max-width: 600px;
+}
+
+.slider .description p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.controls button {
+    background: none;
+    border: none;
+    color: #FFA564;
+    font-size: 2em;
+}
+
+.controls .indicators {
+    display: flex;
+    gap: 10px;
+    padding: 0 40px 0 40px;
+}
+
+.controls .indicators div {
+    width: 10px;
+    height: 10px;
+    background: #FFA564;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.controls .indicators div.active{
+    opacity: 0.5;
+}
+
+.slider .slide {
+    position: absolute;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider .slide.active {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.slider .slide.left {
+    transform: translateX(-100%);
+}
+
+.slider .slide.right {
+    transform: translateX(100%);
+}
