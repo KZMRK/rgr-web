@@ -1,0 +1,88 @@
+
+body{
+    background-color:#FFF2D9 ;
+}
+.trustee{
+    width: 1171px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.trustee h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.trustee-general{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   border-bottom: solid #000 2px;
+   padding-bottom: 17px;
+}
+.trustee-general .big-photo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.trustee-general .big-photo button{
+   font-size: 29px;
+    background: none;
+    font-weight: 700;
+    color: #FF8833;
+    border: none;
+    cursor: pointer;
+}
+.trustee-general .big-photo .photo{
+    width: 472 px;
+    height: 365 px;
+    border-radius: 20px;
+}
+.text-n-photos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.text-n-photos .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* width: 563px; */
+}
+.text-n-photos .text h3{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 56px;
+    text-align: right;
+}
+.text-n-photos .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    /* width: 463px;  */
+}
+.photo-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+#trustee-vector{
+    position: absolute;
+    left: 193px;
+    top: 285px;;
+    z-index: -1;
+    width:792px;
+     height:580px;
+} 
