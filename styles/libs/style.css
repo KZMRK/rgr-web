@@ -3,6 +3,7 @@
 @import url('../blocks/_main-page.css');
 @import url('../blocks/_slider.css');
 @import url('../blocks/_volunteering-page.css');
+@import url('../blocks/_form.css');
 
 *{
     font-family: 'Mulish', sans-serif;

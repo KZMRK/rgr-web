@@ -10,6 +10,7 @@ section{
     align-items: center;
     margin: 0 auto;
 }
+
 .trustee h2{
     font-size: 48px;
     font-weight: 700;
@@ -24,6 +25,7 @@ section{
    justify-content: space-between;
    border-bottom: solid #000 2px;
    padding-bottom: 17px;
+   width: inherit;
 }
 .trustee-general .big-photo{
     width: 50%;
@@ -187,10 +189,6 @@ p{
 .form{
     width: 1120px;
     height: 736px;
-    border: none;
-    border-radius: 20px;
-    background-color: #433C3C;
-    z-index: -1;
     margin-bottom: 47px;
 }
 

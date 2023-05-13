@@ -1,0 +1,21 @@
+
+.form{
+    border: none;
+    border-radius: 20px;
+    background-color: #433C3C;
+    z-index: -1;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+button{
+    background-color:#FF8833;
+    border: none;
+    border-radius: 55px;
+    width: 360px;
+    height: 57px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+}
