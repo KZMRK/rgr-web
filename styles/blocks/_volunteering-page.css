@@ -184,3 +184,19 @@ p{
     height: 170px; 
 }
 
+.form{
+    width: 1120px;
+    height: 736px;
+    border: none;
+    border-radius: 20px;
+    background-color: #433C3C;
+    z-index: -1;
+    margin-bottom: 47px;
+}
+
+#volunteer-form-vector1{
+    z-index: -2;
+    position: absolute;
+    left: 0;
+    top: 3550px;
+}
