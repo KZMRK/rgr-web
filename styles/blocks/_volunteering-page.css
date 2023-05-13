@@ -2,7 +2,7 @@
 body{
     background-color:#FFF2D9 ;
 }
-.trustee, .trustee-work{
+section{
     width: 1171px;
     display: flex;
     flex-direction: column;
@@ -75,6 +75,7 @@ p{
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
 }
 .text-n-photos .text p{
     line-height: 30px;
@@ -116,6 +117,7 @@ p{
 }
 .list-item p{
     line-height: 28px;
+    text-align: left;
 }
 .list-item img{
     width: 40px;
@@ -139,4 +141,19 @@ p{
     z-index: -1;
     right: 0;
     top: 650px;
+}
+
+.choose-friend p{
+    width: 834px;
+    font-size: 24px;   
+}
+.choose-friend img{
+    width: 1080px;
+    height: 685px;
+}
+#choose-friend-vector1{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 1275px;
 }
