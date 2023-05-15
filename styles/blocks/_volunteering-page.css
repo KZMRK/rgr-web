@@ -268,8 +268,8 @@ h3{
     margin-left: -468.5px;
     padding: 37px 40px;
     display: flex;
+    z-index: 5;
     visibility: hidden;
-    
 }
 .thank-frame h3{
     font-size: 48px;
@@ -290,4 +290,14 @@ h3{
     right: 0;
     margin:9px 9px ;
 }
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98.91vw;
+    height: 670vh;
+    z-index:3; 
+    background-color:rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+  }
 
