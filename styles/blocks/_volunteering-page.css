@@ -72,7 +72,7 @@ h3{
     text-align: right;
     margin: 0;
 }
-p{
+.trustee-work, .volunteer-form, .another-help, .choose-friend, .thank-frame p{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -224,12 +224,14 @@ p{
     flex-direction: column;
     width: 50%;
     white-space: nowrap;
+    align-items: flex-start;
 }
 .radio2{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
-.element, .element label{
+.element, .element label, button{
     cursor: pointer;
 }
 .form-part2{
@@ -253,3 +255,39 @@ p{
 .form-part2 p{
     margin-bottom: 11px;
 }
+
+.thank-frame{
+    width: 937px;
+    height: 271px;
+    border-radius: 20px;
+    background-color: #D6EBDC;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -135.5px;
+    margin-left: -468.5px;
+    padding: 37px 40px;
+    display: flex;
+    visibility: hidden;
+    
+}
+.thank-frame h3{
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+}
+.inner-frame{
+    border-radius: 20px;
+    background: none;
+    border: #433C3C solid 1px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.thank-frame img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:9px 9px ;
+}
+

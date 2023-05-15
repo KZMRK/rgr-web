@@ -6,7 +6,7 @@
     font-family: 'Open Sans';
     font-style: normal;
 }
-.submit-button, button{
+.submit-button, .form button{
     background-color:#FF8833;
     border: none;
     border-radius: 55px;
