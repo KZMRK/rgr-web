@@ -3,6 +3,7 @@
 @import url('../blocks/_main-page.css');
 @import url('../blocks/_slider.css');
 @import url('../blocks/_reasons.css');
+@import url('../blocks/_sponsors.css');
 
 *{
     font-family: 'Mulish', sans-serif;
