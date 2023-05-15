@@ -21,8 +21,6 @@ function updateSlider() {
     });
 }
 
-
-// Initialize slider
 slides.forEach((slide, i) => {
     const indicator = document.createElement('div');
     indicator.addEventListener('click', () => {
@@ -34,7 +32,6 @@ slides.forEach((slide, i) => {
 });
 updateSlider();
 
-// Add event listeners to prev/next buttons
 document.querySelector('.controls .prev').addEventListener('click', () => {
     direction = 'left';
     index = (index - 1 + slides.length) % slides.length;

@@ -81,7 +81,7 @@ footer {
   .footer-col3 button {
     width: 233px;
     height: 57px;
-    background: #433C3C;
+    background: rgba(67, 60, 60, 1);
     border-radius: 55px;
     font-family: 'Mulish';
     font-style: normal;
@@ -92,6 +92,10 @@ footer {
     border: none;
     cursor: pointer;
     margin-bottom: 90px;
+    }
+
+    .footer-col3 button:hover {
+        background-color: rgba(67, 60, 60, 0.8);;
     }
     
     .social-media {
