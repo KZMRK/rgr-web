@@ -1,0 +1,134 @@
+footer {
+    height: 432px;
+    background: rgba(255, 136, 51, 0.66);
+    padding: 92px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-col1, .footer-col2, .footer-col3 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-col1 {
+    width: 341px;
+    margin-right: 120px;
+  }
+  
+  .footer-col1 img {
+    width: 180px;
+    height: 83px;
+    margin-bottom: 21px;
+  }
+  
+  .footer-col1 p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 59px;
+  }
+  
+  .footer-col1 small {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+  }
+  
+  .footer-col2 {
+    width: 218px;
+    margin-right: 120px;
+  }
+  
+  .footer-col2 h3 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 7px;
+  }
+  
+  .footer-col2 ul li a {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #000000;
+    text-decoration: none;
+  }
+
+  .footer-links ul {
+    list-style: none;
+  }
+  
+  
+  .footer-col3 {
+    width: 233px;
+  }
+  
+  .footer-col3 button {
+    width: 233px;
+    height: 57px;
+    background: #433C3C;
+    border-radius: 55px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 90px;
+    }
+    
+    .social-media {
+    display: flex;
+    gap: 27px;
+    }
+    
+    .social-media img {
+    width: 37px;
+    height: 37px;
+    }
+
+    .footer-img {
+        position: relative;
+    }
+    
+    .overlap-img {
+        position: absolute;
+        bottom: -30px;
+        left: 50%; 
+        transform: translateX(-50%); 
+        width: 1146px;
+        height: 280px;
+    }
+
+    .footer__item{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 23px;
+    color: #1F1534;
+    text-decoration: none;
+    opacity: 0.7;
+    }
+
+    .footer__item.active {
+        font-weight: 700;
+        opacity: 1;
+    }
