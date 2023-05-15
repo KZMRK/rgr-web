@@ -98,27 +98,73 @@
         </div>
     </section>
     <section class="volunteer-form">
-        <h3>Заповнюй форму для волонтерства!</h3>
-        <div class="form">
-            <div class="form-part1">
-                <div class="input-small">
-
+        <h3>Заповнюйте форму для волонтерства!</h3>
+        <form action="">
+            <div class="form">
+                <div class="form-part1">
+                    <input type="text" id="name-input" class="input-small" placeholder="Ім'я" required >
+                    <input type="tel" id="number-input" class="input-small number" placeholder="Номер телефону" required>
+                    <textarea id="help-input" class="input-large" placeholder="Як Ви готові допомагати?" required></textarea>
+                    <p>Як часто Ви можете приїжджати?</p>
+                    <div class="radio-container">
+                        <div class="radio1" >
+                            <div class="element">
+                                <input type="radio" id="weekly" name="frequency" value="weekly" required>
+                                <label for="weekly">Щотижня</label>
+                            </div>
+                            <div class="element">
+                                <input type="radio" id="half-monthly" name="frequency" value="half-monthly">
+                                <label for="half-monthly">Двічі на тиждень</label>
+                            </div>
+                        </div>
+                        <div class="radio2">
+                            <div class="element">
+                                <input type="radio" id="monthly" name="frequency" value="monthly">
+                                <label for="monthly">Раз на тиждень</label>
+                            </div>
+                            <div class="element">
+                                <input type="radio" id="rarely" name="frequency" value="rarely">
+                                <label for="rarely">Рідше</label>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="input-small">
-
+                <div class="form-part2">
+                    <p>У Вас є тваринка?</p>
+                    <div class="radio-container-small">
+                        <div class="radio1" >
+                            <div class="element">
+                                <input type="radio" id="pet-yes" name="pet" value="yes" required>
+                                <label for="pet-yes">Так</label>
+                            </div>
+                        </div>
+                        <div class="radio2">
+                            <div class="element">
+                                <input type="radio" id="pet-no" name="pet" value="no">
+                                <label for="pet-no">Ні</label>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Були раніше у притулках?</p>
+                    <div class="radio-container-small">
+                        <div class="radio1" >
+                            <div class="element">
+                                <input type="radio" id="shelter-yes" name="shelter" value="yes" required>
+                                <label for="shelter-yes">Так</label>
+                            </div>
+                        </div>
+                        <div class="radio2">
+                            <div class="element">
+                                <input type="radio" id="shelter-no" name="shelter" value="no">
+                                <label for="shelter-no">Ні</label>
+                            </div>
+                        </div>
+                    </div>
+                    <textarea id="which-input" class="input-large" placeholder="У яких?"></textarea>
+                    <input type="submit" id="become-volunteer" class="submit-button" value="Стати волонтером"/>
                 </div>
-                <div class="input-large">
-
-                </div>
-
             </div>
-            <div class="form-part2">
-                <div class="input-large">
-
-                </div>
-                <button type="button">Стати волонтером</button>
-            </div>
-        </div>
+        </form>
     </section>
     <img id="trustee-vector" src="images/vectors/Vector-oval-orange1.png" alt="">
     <img id="trustee-work-vector1" src="images/vectors/Vector-star-orange1.png" alt="">
