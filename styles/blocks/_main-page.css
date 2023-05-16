@@ -7,6 +7,38 @@
     max-width: 50%;
 }
 
+.vector_img{
+    position: relative;
+}
+
+.vector_green_paw{
+    z-index: 1;
+    position: absolute;
+    bottom: -530px;
+    left: 0px; 
+}
+
+.vector_green{
+    z-index: 0;
+    position: absolute;
+    bottom: -150px;
+    left: 600px; 
+}
+
+.vector_orange{
+    z-index: 0;
+    position: absolute;
+    top: -60px;
+    opacity: 0.5;
+}
+
+.vector_orange_paw{
+    z-index: 0;
+    position: absolute;
+    left: 1000px;
+    top: -200px;
+}
+
 .content-left h1 {
     font-family: 'Mulish', sans-serif;
     font-style: normal;
@@ -52,6 +84,8 @@
 }
 
 .container_shelter {
+    z-index: 1;
+    position: relative;
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 20px;
@@ -71,7 +105,7 @@
     text-align: center;
     margin-bottom: 100px;
     margin: 0 auto;
-    padding: 0px 0px 50px 0 ;
+    padding: 0px 0px 100px 0 ;
 }
 
 .shelter__content, .mission__content {
