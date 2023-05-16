@@ -42,8 +42,8 @@ section{
     cursor: pointer;
 }
 .trustee-general .big-photo .photo{
-    width: 472 px;
-    height: 365 px;
+    width: 473px;
+    height: 366px;
     border-radius: 20px;
 }
 .text-n-photos{
@@ -86,6 +86,9 @@ h3{
 .photo-row{
     display: flex;
     justify-content: space-between;
+}
+.photo-row img{
+    width: 181px;
 }
 #trustee-vector{
     position: absolute;
@@ -299,5 +302,9 @@ h3{
     z-index:3; 
     background-color:rgba(0, 0, 0, 0.7);
     visibility: hidden;
-  }
+}
+
+.mySlides{
+    display: none;
+}
 
