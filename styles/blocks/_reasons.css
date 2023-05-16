@@ -1,6 +1,7 @@
 .reasons{
     background-color: #FFF2D9;
     padding-bottom: 90px;
+    position: relative;
 }
 
 .reasons .reasons_title{
@@ -15,6 +16,8 @@
 }
 
 .card-container {
+    position: relative;
+    z-index: 2;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
