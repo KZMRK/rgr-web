@@ -1,27 +1,33 @@
 //trustee photo slider
 let slideIndex = 1;
-showSlides(slideIndex);
+showSlides(slideIndex, "moveLeft");
 
 // Next/previous controls
 function big_photo(n) {
-  showSlides(slideIndex += n);
+    let trans;
+  if(n>0)
+    trans="moveLeft"
+ else
+    trans = "moveRight"
+  showSlides(slideIndex += n, trans);
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
+function showSlides(n, trans) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}
+  let small = document.getElementsByClassName("photo-row");
+  if (n > slides.length) {slideIndex = 1;}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
+    small[i].style.display="none";
   }
- 
+  slides[slideIndex-1].style.animationName = trans;
   slides[slideIndex-1].style.display = "block";
+
+  small[slideIndex-1].style.animationName = trans+"Fade";
+  small[slideIndex-1].style.display="flex";
+  small[slideIndex-1].style.justifyContent="space-between";
  
 }
 

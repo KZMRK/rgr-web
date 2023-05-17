@@ -83,10 +83,7 @@ h3{
     line-height: 30px;
     text-align: right;
 }
-.photo-row{
-    display: flex;
-    justify-content: space-between;
-}
+
 .photo-row img{
     width: 181px;
 }
@@ -304,7 +301,50 @@ h3{
     visibility: hidden;
 }
 
-.mySlides{
+.mySlides, .photo-row{
     display: none;
+    transition: all ease-in-out;
+    animation-duration: 1s;
+}
+/* .mySlides{
+    animation:moveLeft 1s ;
+} */
+@keyframes moveLeft {
+    from {
+      transform: translateX(50px);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+@keyframes moveRight {
+    from {
+      transform: translateX(-50px);
+    }
+    to {
+      transform: translateX(0);
+    }
 }
 
+@keyframes moveLeftFade {
+    from {
+
+      transform: translateX(10px);
+      opacity: 0.5;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    } 
+}
+@keyframes moveRightFade {
+    from {
+
+      transform: translateX(-10px);
+      opacity: 0.5;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    } 
+}
