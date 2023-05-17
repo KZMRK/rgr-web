@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/libs/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Hatiko</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo">
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav__item">Про нас</a>
+                    <a href="#" class="nav__item">Благодійність</a>
+                    <a href="#" class="nav__item active">Волонтерство</a>
+                    <a href="#" class="nav__item">Взяти тваринку</a>
+                    <a href="#" class="nav__item">Знайшли тваринку?</a>
+                </nav>
+            </div>   
+        </div>
+    </header>
+    <div id="overlay"></div>
+    <section class="trustee">
+        <h2>Волонтерство</h2>
+        <div class="trustee-general">
+            <div class="big-photo ">
+                <button type="button" onclick="big_photo(-1)" style="rotate: 180deg;">➜</button>
+                <div class="mySlides">
+                    <img class="photo" src="images/vol-img1.png" alt="">
+                </div>
+                <div class="mySlides">
+                    <img class="photo" src="images/vol-img2.png" alt="">
+                </div>
+                <div class="mySlides">
+                    <img class="photo" src="images/vol-img3.png" alt="">
+                </div>
+                <div class="mySlides">
+                    <img class="photo" src="images/vol-img4.png" alt="">
+                </div>
+                <button type="button" onclick="big_photo(1)" >➜</button>
+            </div>
+            <div class="text-n-photos">
+                <div class="text">
+                    <h3>Стань тимчасовим опікуном!</h3>
+                    <p>Якщо Ви бажаєте допомогти притулку, але не можете взяти кішку/собаку додому – станьте його опікуном.</p>
+                </div>
+                <div class="photo-row">
+                    <img src="images/vol-img2.png" alt="">
+                    <img src="images/vol-img3.png" alt="">
+                    <img src="images/vol-img4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="trustee-work">
+        <h3>Що робить опікун?</h3>
+        <div class="work-list">
+            <img id="vol-img6" src="images/vol-img6.png" alt="">
+            <ul style="list-style: none;">
+                <li>
+                    <div class="list-item">
+                        <img src="images/vectors/Vector-star-smal.png" alt="">
+                        <p>Поширює інформацію про тварину та бере участь у влаштуванні тварини у нову родину</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="list-item">
+                        <img src="images/vectors/Vector-star-smal.png" alt="">
+                        <p>
+                            Приїжджає мінімум 1 раз на тиждень, щоб відвідати свого друга
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="list-item">
+                        <img src="images/vectors/Vector-star-smal.png" alt="">
+                        <p>Бере участь у лікуванні при необхідності</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="list-item">
+                        <img src="images/vectors/Vector-star-smal.png" alt="">
+                        <p>Фінансово допомагає утримувати свого вихованця (1500-2000 грн/міс.)</p>
+                    </div>
+                </li>
+            </ul>
+            <img id="vol-img5" src="images/vol-img5.png" alt="">
+        </div>
+    </section>
+    <section class="choose-friend">
+        <h3>Як вибрати друга?</h3>
+        <p>Дуже просто! Приїжджайте в гості. Ми проведемо екскурсію, Ви подивіться на всіх та зможемо разом вибрати для кого стати опікуном.<br>Малюків вистачить на всіх ;)</p>
+        <img src="images/vol-img7.png" alt="">
+    </section>
+    <section class="another-help">
+        <h3>Хочете допомогти інакше?</h3>
+        <div class="another-help-text">
+            <p>Нашому притулку постійно потрібна допомога у щоденних справах: приготування їжі (наприклад, очищення напівфабрикатів від упаковки); миття мисок; доставка свіжої води; прибирання вольєрів та території. Найактивніші помічники можуть проявити себе у заняттях, що потребують фізичних зусиль: поточний ремонт, посильна допомога будівельникам, заготівля дров.</p>
+            <img src="images/vol-img8.png" alt="">
+        </div>
+    </section>
+    <section class="volunteer-form">
+        <h3>Заповнюйте форму для волонтерства!</h3>
+        <form action="">
+            <div class="form">
+                <div class="form-part1">
+                    <input type="text" id="name-input" class="input-small" placeholder="Ім'я" required >
+                    <input type="tel" id="number-input" class="input-small number" placeholder="Номер телефону" required>
+                    <textarea id="help-input" class="input-large" placeholder="Як Ви готові допомагати?" required></textarea>
+                    <p id="frequency-question">Як часто Ви можете приїжджати?</p>
+                    <div class="radio-container">
+                        <div class="radio1" >
+                            <div class="element">
+                                <input type="radio" id="weekly" name="frequency" value="weekly" required>
+                                <label for="weekly">Щотижня</label>
+                            </div>
+                            <div class="element">
+                                <input type="radio" id="half-monthly" name="frequency" value="half-monthly">
+                                <label for="half-monthly">Двічі на тиждень</label>
+                            </div>
+                        </div>
+                        <div class="radio2">
+                            <div class="element">
+                                <input type="radio" id="monthly" name="frequency" value="monthly">
+                                <label for="monthly">Раз на тиждень</label>
+                            </div>
+                            <div class="element">
+                                <input type="radio" id="rarely" name="frequency" value="rarely">
+                                <label for="rarely">Рідше</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-part2">
+                    <p id="pet-question">У Вас є тваринка?</p>
+                    <div class="radio-container-small">
+                        <div class="radio1" >
+                            <div class="element">
+                                <input type="radio" id="pet-yes" name="pet" value="yes" required>
+                                <label for="pet-yes">Так</label>
+                            </div>
+                        </div>
+                        <div class="radio2">
+                            <div class="element">
+                                <input type="radio" id="pet-no" name="pet" value="no">
+                                <label for="pet-no">Ні</label>
+                            </div>
+                        </div>
+                    </div>
+                    <p id="shelter-question">Були раніше у притулках?</p>
+                    <div class="radio-container-small">
+                        <div class="radio1" >
+                            <div class="element">
+                                <input type="radio" id="shelter-yes" name="shelter" value="yes" required>
+                                <label for="shelter-yes">Так</label>
+                            </div>
+                        </div>
+                        <div class="radio2">
+                            <div class="element">
+                                <input type="radio" id="shelter-no" name="shelter" value="no">
+                                <label for="shelter-no">Ні</label>
+                            </div>
+                        </div>
+                    </div>
+                    <textarea id="which-input" class="input-large" placeholder="У яких?"></textarea>
+                    <input type="submit" id="become-volunteer" class="submit-button"  value="Стати волонтером"/>
+                </div>
+            </div>
+        </form>
+    </section>
+    <div class="thank-frame" id="thank-frame">
+        <button onclick="close_frame()">
+            <img src="images/vectors/vector-close.png" alt="">
+        </button>
+        <div class="inner-frame">
+            <h3>Дякуємо за заявку, очікуйте дзвінка! </h3>
+        </div>
+    </div>
+    <img id="trustee-vector" src="images/vectors/Vector-oval-orange1.png" alt="">
+    <img id="trustee-work-vector1" src="images/vectors/Vector-star-orange1.png" alt="">
+    <img id="choose-friend-vector1" src="images/vectors/Vector-star-green1.png" alt="">
+    <img id="another-help-vector1" src="images/vectors/Vector-paw-green1.png" alt="">
+    <img id="volunteer-form-vector1" src="images/vectors/Vector-oval-orange2.png" alt="">
+    
+    <script src="scripts/volunteering.js"></script>
+</body>
+</html>
