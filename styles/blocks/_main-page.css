@@ -7,6 +7,38 @@
     max-width: 50%;
 }
 
+.vector_img{
+    position: relative;
+}
+
+.vector_green_paw{
+    z-index: 1;
+    position: absolute;
+    bottom: -530px;
+    left: 0px; 
+}
+
+.vector_green{
+    z-index: 0;
+    position: absolute;
+    bottom: -150px;
+    left: 600px; 
+}
+
+.vector_orange{
+    z-index: 0;
+    position: absolute;
+    top: -60px;
+    opacity: 0.5;
+}
+
+.vector_orange_paw{
+    z-index: 0;
+    position: absolute;
+    left: 1000px;
+    top: -200px;
+}
+
 .content-left h1 {
     font-family: 'Mulish', sans-serif;
     font-style: normal;
@@ -29,7 +61,7 @@
 }
 
 .main_btn {
-    background: #FF8833;
+    background: rgba(255, 136, 51, 1);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 55px;
     width: 215px;
@@ -43,11 +75,17 @@
     color: #FFFFFF;
 }
 
+.main_btn:hover {
+    background-color: rgba(255, 136, 51, 0.8);
+}
+
 .shelter{
     background-color: #FFF2D9;
 }
 
 .container_shelter {
+    z-index: 1;
+    position: relative;
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 20px;
@@ -67,7 +105,7 @@
     text-align: center;
     margin-bottom: 100px;
     margin: 0 auto;
-    padding: 0px 0px 50px 0 ;
+    padding: 0px 0px 100px 0 ;
 }
 
 .shelter__content, .mission__content {

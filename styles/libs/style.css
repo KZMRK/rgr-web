@@ -4,6 +4,9 @@
 @import url('../blocks/_slider.css');
 @import url('../blocks/_volunteering-page.css');
 @import url('../blocks/_form.css');
+@import url('../blocks/_reasons.css');
+@import url('../blocks/_sponsors.css');
+@import url('../blocks/_footer.css');
 
 *{
     font-family: 'Mulish', sans-serif;
