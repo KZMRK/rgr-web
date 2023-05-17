@@ -15,11 +15,11 @@
     <header>
         <div class="container">
             <div class="header-content">
-                <div class="logo">
-                    <img src="images/logo.png" alt="logo">
-                </div>
+                <a class="logo" href="index.html">
+                    <img src="images/logo.svg" alt="logo">
+                </a>
                 <nav class="nav">
-                    <a href="index.html" class="nav__item">Про нас</a>
+                    <a href="#" class="nav__item">Про нас</a>
                     <a href="#" class="nav__item">Благодійність</a>
                     <a href="#" class="nav__item active">Волонтерство</a>
                     <a href="#" class="nav__item">Взяти тваринку</a>
@@ -30,10 +30,10 @@
     </header>
     <div id="overlay"></div>
     <section class="trustee">
-        <h2>Волонтерство</h2>
+        <h1>Волонтерство</h1>
         <div class="trustee-general">
             <div class="big-photo ">
-                <button type="button" onclick="big_photo(-1)" style="rotate: 180deg;">➜</button>
+                <button type="button" class="arrow" onclick="big_photo(-1)" style="rotate: 180deg;">➜</button>
                 <div class="mySlides">
                     <img class="photo" src="images/vol-img1.png" alt="">
                 </div>
@@ -46,11 +46,11 @@
                 <div class="mySlides">
                     <img class="photo" src="images/vol-img4.png" alt="">
                 </div>
-                <button type="button" onclick="big_photo(1)" >➜</button>
+                <button type="button" class="arrow" onclick="big_photo(1)" >➜</button>
             </div>
             <div class="text-n-photos">
                 <div class="text">
-                    <h3>Стань тимчасовим опікуном!</h3>
+                    <h2>Стань тимчасовим опікуном!</h2>
                     <p>Якщо Ви бажаєте допомогти притулку, але не можете взяти кішку/собаку додому – станьте його опікуном.</p>
                 </div>
                 <div class="photo-row">
@@ -78,7 +78,7 @@
     </section>
     
     <section class="trustee-work">
-        <h3>Що робить опікун?</h3>
+        <h2>Що робить опікун?</h2>
         <div class="work-list">
             <img id="vol-img6" src="images/vol-img6.png" alt="">
             <ul style="list-style: none;">
@@ -113,19 +113,19 @@
         </div>
     </section>
     <section class="choose-friend">
-        <h3>Як вибрати друга?</h3>
+        <h2>Як вибрати друга?</h2>
         <p>Дуже просто! Приїжджайте в гості. Ми проведемо екскурсію, Ви подивіться на всіх та зможемо разом вибрати для кого стати опікуном.<br>Малюків вистачить на всіх ;)</p>
         <img src="images/vol-img7.png" alt="">
     </section>
     <section class="another-help">
-        <h3>Хочете допомогти інакше?</h3>
+        <h2>Хочете допомогти інакше?</h2>
         <div class="another-help-text">
             <p>Нашому притулку постійно потрібна допомога у щоденних справах: приготування їжі (наприклад, очищення напівфабрикатів від упаковки); миття мисок; доставка свіжої води; прибирання вольєрів та території. Найактивніші помічники можуть проявити себе у заняттях, що потребують фізичних зусиль: поточний ремонт, посильна допомога будівельникам, заготівля дров.</p>
             <img src="images/vol-img8.png" alt="">
         </div>
     </section>
     <section class="volunteer-form">
-        <h3>Заповнюйте форму для волонтерства!</h3>
+        <h2>Заповнюйте форму для волонтерства!</h2>
         <form action="">
             <div class="form">
                 <div class="form-part1">
@@ -198,9 +198,53 @@
             <img src="images/vectors/vector-close.png" alt="">
         </button>
         <div class="inner-frame">
-            <h3>Дякуємо за заявку, очікуйте дзвінка! </h3>
+            <h2>Дякуємо за заявку, очікуйте дзвінка! </h2>
         </div>
     </div>
+    <div class="footer-img">
+        <img class="overlap-img" src="images/cat_dog.svg" alt="Overlap Image">
+    </div>
+
+    <footer>
+    <div class="container">
+        <div class="footer-content">
+        <div class="footer-col1">
+            <a href="index.html"><img src="images/logo.svg" alt="Logo"></a>
+            <p>Подаруй свою любов та турботу тваринам в нашому притулку</p>
+            <small>©Hatiko 2023. Всі права захищені</small>
+        </div>
+        <div class="footer-col2">
+            <h3>Загальна інформація</h3>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="index.html" class="footer__item active">Про нас</a></li>
+                    <li><a href="#" class="footer__item">Благодійність</a></li>
+                    <li><a href="volunteering.html" class="footer__item">Волонтерство</a></li>
+                    <li><a href="#" class="footer__item">Взяти тваринку</a></li>
+                    <li><a href="#" class="footer__item">Знайшли тваринку?</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-col3">
+            <button>Хочу друга</button>
+            <div class="social-media">
+            <a href="#"><img src="images/social1.svg" alt="Social Media"></a>
+            <a href="#"><img src="images/social2.svg" alt="Social Media"></a>
+            <a href="#"><img src="images/social3.svg" alt="Social Media"></a>
+            <a href="#"><img src="images/social4.svg" alt="Social Media"></a>
+            </div>
+        </div>
+        </div>
+    </div>
+    </footer>      
+
+    <script src="scripts/header.js"></script>
+    <script src="scripts/volunteering.js"></script>
+    <script src="scripts/footer.js"></script>
+
+
+
     <img id="trustee-vector" src="images/vectors/Vector-oval-orange1.png" alt="">
     <img id="trustee-work-vector1" src="images/vectors/Vector-star-orange1.png" alt="">
     <img id="choose-friend-vector1" src="images/vectors/Vector-star-green1.png" alt="">
