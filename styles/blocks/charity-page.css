@@ -1,0 +1,39 @@
+.charity-page-info h1 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.charity-page-info .container .content-right {
+    max-width: 560px;
+    margin-left: 70px;
+}
+
+.charity-page-info .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.charity-page-info .content-right h2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 56px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.charity-page-info .content-right p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
