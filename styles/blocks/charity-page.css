@@ -37,3 +37,80 @@
     line-height: 30px;
 }
 
+.help-save-live .form {
+    margin: 0 auto;
+}
+.help-save-live .form .form-description {
+    width: 42%;
+}
+
+.help-save-live .form .form-description-title {
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.help-save-live .form .form-description img {
+    width: 45px;
+    position: relative;
+    left: -11px;
+}
+
+.help-save-live .form .form-description .description-text {
+    line-height: 30px;
+}
+.help-save-live .form .pay-button {
+    color: white;
+    text-decoration: none;
+    background-color:#FF8833;
+    width: 411px;
+    height: 60px;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50px;
+    line-height: 60px;
+}
+
+.help-save-live .form .pay-button:hover {
+    background-color: rgba(255, 136, 51, 0.8);
+}
+
+.help-save-live .form .top-form-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.help-save-live .form {
+    display: block;
+    position: relative;
+}
+.help-save-live .form .separate-line {
+    background-color: white;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 408px;
+}
+.help-save-live .form .bottom-form-part {
+    margin-top: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.charity-section {
+    margin-top: 200px;
+}
+.charity-section h2 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
