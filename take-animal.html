@@ -31,34 +31,109 @@
   <div id="overlay"></div>
   <div class="take-animal-info">
     <h1>ЇМ ЧАС ЗНАЙТИ СВІЙ ДІМ</h1>
-    <h2>Якщо Ви хочете взяти тваринку з нашого притулку - ознайомтесь з <a href="#">правилами адопції</a></h2>
+    <h2>Якщо Ви хочете взяти тваринку з нашого притулку - ознайомтесь з <a href="#rule-of-adoption">правилами адопції</a></h2>
   </div>
   <div class = "container">
   <div class ="filtration-params">
-    <select id="сhoose-kind">
-      <option value="option1">Вид тваринки</option>
-      <option value="option2">Кіт</option>
-      <option value="option3">Пес</option>
-    </select>
-    <select id="choose-age">
-      <option value="option1">Вік</option>
-      <option value="option2">До року</option>
-      <option value="option3">1-2 роки</option>
-      <option value="option4">3-5 роки</option>
-      <option value="option5">6-10 років</option>
-      <option value="option6">10+ років</option>
-    </select>
-    <select id="choose-size">
-      <option value="option1">Розмір</option>
-      <option value="option2">Маленький</option>
-      <option value="option3">Середній</option>
-      <option value="option3">Великий</option>
-    </select>
+      <select id="сhoose-kind">
+        <option value="option1">Вид тваринки</option>
+        <option value="option2">Кіт</option>
+        <option value="option3">Пес</option>
+      </select>
+
+      <select id="choose-age">
+        <option value="option1">Вік</option>
+        <option value="option2">До року</option>
+        <option value="option3">1-2 роки</option>
+        <option value="option4">3-5 роки</option>
+        <option value="option5">6-10 років</option>
+        <option value="option6">10+ років</option>
+      </select>
+
+
+      <select id="choose-size">
+        <option value="option1">Розмір</option>
+        <option value="option2">Маленький</option>
+        <option value="option3">Середній</option>
+        <option value="option3">Великий</option>
+      </select>
 
     <button class = "button-search">Пошук</button>
   </div>
   </div>
 
+  <section class="slider_wrapper" id="rule-of-adoption">
+    <div class="slider_title">
+      Правила адопції
+    </div>
+    <div class="slider">
+      <div class="slide active">
+        <h2>Співбесіда та договір</h2>
+        <div class="line"></div>
+        <div class="info">
+          <div class="cat">
+            <img src="images/interview-slider.svg" alt="Інтерв'ю">
+          </div>
+          <div class="description">
+            <p>Інтерв’ю - обов'язковий етап адопції. Менеджер задасть тобі питання, відповіді на які допоможуть зрозуміти твою готовність до появи нового члена сім'ї, допоможе з вибором чотирилапого друга, надасть консультацію по догляду. Тривалість близько 40 хвилин.
+              Заключаємо договір про передачу тварини. Менеджер може надіслати договір для попереднього ознайомлення.</p>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <h2>Тварини не віддаються на ланцюг</h2>
+        <div class="line"></div>
+        <div class="info">
+          <div class="cat">
+            <img src="images/dog-walking.svg" alt="">
+          </div>
+          <div class="description">
+            <p>Кожна тварина заслуговує на гідний догляд та умови утримання.
+              Саме тому тварини не віддаються на ланцюг, на самовигул, на подарунок чи на підприємство.
+              Просторий вольєр можливий, але навіть він підходить не кожному.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h2>Кіт, який подорожував світом</h2>
+        <div class="line"></div>
+        <div class="info">
+          <div class="cat">
+            <img src="images/slider_cat2.svg" alt="Капітан">
+            <p>Капітан</p>
+          </div>
+          <div class="description">
+            <p>Капітан - кіт, який був знайдений в морському порту. Він пройшов тисячі миль на кораблі, але коли корабель причалив до порту, Капітан вирішив знайти собі новий дім на суші. Зараз він живе в притулку, де шукає нову родину.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h2>Собака, яка навчилася довіряти людям</h2>
+        <div class="line"></div>
+        <div class="info">
+          <div class="cat">
+            <img src="images/slider_dog2.svg" alt="Белла">
+            <p>Белла</p>
+          </div>
+          <div class="description">
+            <p>Белла - собака, яка була знайдена на вулицях, де вона жила декілька років. Вона була дуже страхливою та недовірливою до людей, але завдяки працівникам притулку, Белла почала довіряти людям. Зараз вона чекає на люблячу родину, яка зможе подарувати їй безпечний та комфортний дім.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="controls">
+      <button class="prev">←</button>
+      <div class="indicators">
+      </div>
+      <button class="next">→</button>
+    </div>
+  </section>
+
+
   <script src="scripts/take-animal.js"></script>
+  <script src="scripts/slider.js"></script>
 </body>
 </html>
