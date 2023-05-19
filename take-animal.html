@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/libs/style.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <title>Hatiko</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a class="logo" href="index.html">
+          <img src="images/logo.svg" alt="logo">
+        </a>
+        <nav class="nav">
+          <a href="index.html" class="nav__item">Про нас</a>
+          <a href="#" class="nav__item">Благодійність</a>
+          <a href="volunteering.html" class="nav__item">Волонтерство</a>
+          <a href="take-animal.html" class="nav__item active">Взяти тваринку</a>
+          <a href="#" class="nav__item">Знайшли тваринку?</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div id="overlay"></div>
+  <div class="take-animal-info">
+    <h1>ЇМ ЧАС ЗНАЙТИ СВІЙ ДІМ</h1>
+    <h2>Якщо Ви хочете взяти тваринку з нашого притулку - ознайомтесь з <a href="#">правилами адопції</a></h2>
+  </div>
+  <div class = "container">
+  <div class ="filtration-params">
+    <select id="сhoose-kind">
+      <option value="option1">Вид тваринки</option>
+      <option value="option2">Кіт</option>
+      <option value="option3">Пес</option>
+    </select>
+    <select id="choose-age">
+      <option value="option1">Вік</option>
+      <option value="option2">До року</option>
+      <option value="option3">1-2 роки</option>
+      <option value="option4">3-5 роки</option>
+      <option value="option5">6-10 років</option>
+      <option value="option6">10+ років</option>
+    </select>
+    <select id="choose-size">
+      <option value="option1">Розмір</option>
+      <option value="option2">Маленький</option>
+      <option value="option3">Середній</option>
+      <option value="option3">Великий</option>
+    </select>
+
+    <button class = "button-search">Пошук</button>
+  </div>
+  </div>
+
+  <script src="scripts/take-animal.js"></script>
+</body>
+</html>

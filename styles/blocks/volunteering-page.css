@@ -316,6 +316,51 @@ body{
     margin-bottom: 11px;
 }
 
+.thank-frame{
+    width: 937px;
+    height: 271px;
+    border-radius: 20px;
+    background-color: #D6EBDC;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -135.5px;
+    margin-left: -468.5px;
+    padding: 37px 40px;
+    display: flex;
+    z-index: 5;
+    visibility: hidden;
+}
+.thank-frame h3{
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+}
+.inner-frame{
+    border-radius: 20px;
+    background: none;
+    border: #433C3C solid 1px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.thank-frame img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin:9px 9px ;
+}
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98vw;
+    height: 670vh;
+    z-index:3; 
+    background-color:rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+}
+
 .mySlides, .photo-row{
     display: none;
     transition: all ease-in-out;

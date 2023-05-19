@@ -1,0 +1,73 @@
+.take-animal-info h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;
+    margin-top: 20px;
+}
+
+.take-animal-info a{
+    text-decoration: underline;
+}
+.take-animal-info h2{
+    font-family: 'Open Sans';
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+}
+
+.take-animal-info{
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.filtration-params{
+
+    margin-top: 100px;
+    max-width: 1120px;
+    display: flex;
+}
+.filtration-params select, button{
+    margin-right: 45px;
+}
+.filtration-params button:last-child {
+    margin-right: 0;
+}
+
+.filtration-params select{
+    padding-right: 30px; /* Змініть значення, щоб посунути стрілку лівіше або правіше */
+    color: white;
+    text-align: center;
+    background: #433C3C;
+    height: 56px;
+    width: 230px;
+    border-radius: 55px;
+    font-family: 'Mulish';
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.filtration-params button{
+    color: white;
+    height: 56px;
+    width: 230px;
+    border-radius: 55px;
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+
+}
+
+.button-search{
+    background: #FF8833;
+}
+
