@@ -1,10 +1,10 @@
 const sliderContainer = document.querySelector('.slider-for-animal-object');
 const prevButton = document.querySelector('.prev-button');
 const nextButton = document.querySelector('.next-button');
-const sliderItems = document.querySelectorAll('.animal-object-info');
+const currentPageElement = document.querySelector('.current-page');
+let sliderItems = document.querySelectorAll('.animal-object-info');
 
 const itemsPerPage = 9; // Кількість елементів на одній сторінці
-const totalPages = Math.ceil(sliderItems.length / itemsPerPage);
 let currentPage = 1;
 
 function showCurrentItems() {
@@ -22,24 +22,35 @@ function showCurrentItems() {
 
 function updateButtonsState() {
     prevButton.disabled = currentPage === 1;
-    nextButton.disabled = currentPage === totalPages;
+    prevButton.classList.toggle('disabled', currentPage === 1);
+    nextButton.disabled = currentPage === Math.ceil(sliderItems.length / itemsPerPage);
+    nextButton.classList.toggle('disabled', currentPage === Math.ceil(sliderItems.length / itemsPerPage));
+}
+
+function updateSliderAnimal() {
+    sliderItems = document.querySelectorAll('.animal-object-info'); // Оновити колекцію елементів
+    showCurrentItems();
+    updateButtonsState();
+    currentPageElement.textContent = currentPage;
+
+    prevButton.focus();
 }
 
 prevButton.addEventListener('click', () => {
     if (currentPage > 1) {
         currentPage--;
-        showCurrentItems();
-        updateButtonsState();
+        updateSliderAnimal();
     }
 });
 
 nextButton.addEventListener('click', () => {
-    if (currentPage < totalPages) {
+    if (currentPage < Math.ceil(sliderItems.length / itemsPerPage)) {
         currentPage++;
-        showCurrentItems();
-        updateButtonsState();
+        updateSliderAnimal();
     }
 });
+
+window.addEventListener('resize', updateSliderAnimal);
 
 showCurrentItems();
 updateButtonsState();

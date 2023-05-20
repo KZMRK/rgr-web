@@ -28,7 +28,7 @@
       </div>
     </div>
   </header>
-  <div id="overlay"></div>
+
   <div class="take-animal-info">
     <h1>ЇМ ЧАС ЗНАЙТИ СВІЙ ДІМ</h1>
     <h2>Якщо Ви хочете взяти тваринку з нашого притулку - ознайомтесь з <a href="#rule-of-adoption">правилами адопції</a></h2>
@@ -85,6 +85,20 @@
           <p>Через травму розвинувся некроз тканин шкіри, сильний заральний процес та загоєння, була перспектива ампутації</p>
         </div>
       </div>
+      <div class="animal-object-info">
+        <div class="animal-image type1"></div>
+        <div class="info-part">
+          <p class="info-title">Котик Даніель</p>
+          <p>Через травму розвинувся некроз тканин шкіри, сильний заральний процес та загоєння, була перспектива ампутації</p>
+        </div>
+      </div>
+      <div class="animal-object-info">
+        <div class="animal-image type3"></div>
+        <div class="info-part">
+          <p class="info-title">Котик Даніель</p>
+          <p>Через травму розвинувся некроз тканин шкіри, сильний заральний процес та загоєння, була перспектива ампутації</p>
+        </div>
+      </div>
 
       <div class="animal-object-info">
         <div class="animal-image type3"></div>
@@ -101,20 +115,7 @@
           <p>Через травму розвинувся некроз тканин шкіри, сильний заральний процес та загоєння, була перспектива ампутації</p>
         </div>
       </div>
-      <div class="animal-object-info">
-        <div class="animal-image type3"></div>
-        <div class="info-part">
-          <p class="info-title">Котик Даніель</p>
-          <p>Через травму розвинувся некроз тканин шкіри, сильний заральний процес та загоєння, була перспектива ампутації</p>
-        </div>
-      </div>
-      <div class="animal-object-info">
-        <div class="animal-image type3"></div>
-        <div class="info-part">
-          <p class="info-title">Котик Даніель</p>
-          <p>Через травму розвинувся некроз тканин шкіри, сильний заральний процес та загоєння, була перспектива ампутації</p>
-        </div>
-      </div>
+
       <div class="animal-object-info">
         <div class="animal-image type3"></div>
         <div class="info-part">
@@ -146,11 +147,14 @@
     </div>
     <div class="slider-controls">
       <button class="slider-button prev-button">←</button>
+      <span class="current-page">1</span>
       <button class="slider-button next-button">→</button>
     </div>
-  </div>
+    </div>
 
-    <div class="slider_title">
+
+
+  <div class="slider_title" id="rule-of-adoption">
       Правила адопції
     </div>
     <div class="slider">
@@ -209,16 +213,52 @@
           </div>
         </div>
       </div>
+    </div>
 
+  <div class="controls">
+    <button class="prev">←</button>
+    <div class="indicators">
     </div>
-    <div class="controls">
-      <button class="prev">←</button>
-      <div class="indicators">
-      </div>
-      <button class="next">→</button>
-    </div>
+    <button class="next">→</button>
   </div>
 
+  <div class="footer-img">
+    <img class="overlap-img" src="images/cat_dog.svg" alt="Overlap Image">
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col1">
+          <a href="index.html"><img src="images/logo.svg" alt="Logo"></a>
+          <p>Подаруй свою любов та турботу тваринам в нашому притулку</p>
+          <small>©Hatiko 2023. Всі права захищені</small>
+        </div>
+        <div class="footer-col2">
+          <h3>Загальна інформація</h3>
+          <div class="footer-links">
+            <ul>
+              <li><a href="index.html" class="footer__item">Про нас</a></li>
+              <li><a href="charity.html" class="footer__item">Благодійність</a></li>
+              <li><a href="volunteering.html" class="footer__item">Волонтерство</a></li>
+              <li><a href="take-animal.html" class="footer__item active">Взяти тваринку</a></li>
+              <li><a href="#" class="footer__item">Знайшли тваринку?</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-col3">
+          <button onclick="window.location.href='take-animal.html'">Хочу друга</button>
+          <div class="social-media">
+            <a href="#"><img src="images/social1.svg" alt="Social Media"></a>
+            <a href="#"><img src="images/social2.svg" alt="Social Media"></a>
+            <a href="#"><img src="images/social3.svg" alt="Social Media"></a>
+            <a href="#"><img src="images/social4.svg" alt="Social Media"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="scripts/take-animal.js"></script>
   <script src="scripts/slider.js"></script>
