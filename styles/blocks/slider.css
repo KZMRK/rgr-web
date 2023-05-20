@@ -150,7 +150,7 @@
 
 /*--------------Slider------------------*/
 .who-needs-help .pets-slider {
-
+    display: flex;
     width: 80%;
     justify-content: space-around;
     margin: 0 auto;
@@ -179,22 +179,9 @@
     background-image: url("../../images/pet2.png");
 }
 .who-needs-help .pets-slider .slider-element .element-image3 {
-    background-image: url("../../images/pet3.jpg");
+    background-image: url("../../images/pet3.png");
 }
 
-.who-needs-help .pets-slider .slider-element .element-image4 {
-    background-image: url("../../images/pet4.jpg");
-}
-
-.who-needs-help .pets-slider .slider-element .element-image5 {
-    background-image: url("../../images/pet5.jpg");
-    background-position: top;
-}
-
-.who-needs-help .pets-slider .slider-element .element-image6 {
-    background-image: url("../../images/pet6.jpg");
-    background-position: top;
-}
 
 .who-needs-help .pets-slider .slider-element .learn-more {
     display: block;
@@ -222,7 +209,3 @@
     line-height: 32px;
 }
 
-.who-needs-help .pets-slider .swiper-pagination {
-    margin-top: 20px;
-    color: #1F1534;
-}
