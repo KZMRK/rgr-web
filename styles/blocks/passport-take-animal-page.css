@@ -1,0 +1,10 @@
+.passport-info{
+    padding-top: 100px;
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}

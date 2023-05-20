@@ -10,7 +10,7 @@
 @import url('../blocks/footer.css');
 @import url('../blocks/take-animal-page.css');
 @import url('../blocks/charity-page.css');
-@import url('../blocks/animal-object-info.css');
+@import url('../blocks/animal-take-slider.css');
 *{
     font-family: 'Mulish', sans-serif;
     margin: 0;

@@ -51,10 +51,6 @@
     background-image: url("../../images/pet2.png");
 }
 
-.type3 {
-    background-image: url("../../images/pet3.png");
-}
-
 .pes-patron{
     background-image: url("../../images/pes-patron.png");
 }
@@ -79,7 +75,7 @@
 }
 
 .cat-ben{
-    background-image: url("../../images/cat-ben.png");
+    background-image: url("../../images/kitty.jpg");
 }
 .animal-object-info .animal-image {
     height: 265px;
@@ -163,3 +159,5 @@
 .take-animal-button:hover {
     background-color: rgb(95, 95, 101);
 }
+
+
