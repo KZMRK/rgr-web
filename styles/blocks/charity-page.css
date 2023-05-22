@@ -63,14 +63,14 @@
     color: white;
     text-decoration: none;
     background-color:#FF8833;
-    width: 411px;
-    height: 60px;
+    width: 380px;
+    height: 55px;
     display: block;
     margin-bottom: 20px;
     text-align: center;
     font-size: 30px;
     border-radius: 50px;
-    line-height: 60px;
+    line-height: 55px;
 }
 
 .help-save-live .form .pay-button:hover {
@@ -92,10 +92,10 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 408px;
+    top: 340px;
 }
 .help-save-live .form .bottom-form-part {
-    margin-top: 200px;
+    margin-top: 80px;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -113,4 +113,20 @@
     margin-bottom: 100px;
     text-align: center;
 }
+
+
+
+/*-----*/
+.slide-container .slide-content .card-image {
+    position: relative;
+    width: 380px;
+    height: 265px;
+}
+
+.slide-container .slide-content .card-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 

@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/libs/style.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <title>Благодійність</title>
 </head>
 <body>
@@ -47,35 +48,65 @@
     <section class="who-needs-help charity-section">
         <h2>Кому потрібна допомога</h2>
 
-        <div class="pets-slider">
-            <div class="slider-element">
-                <div class="element-image element-image1">
+        <div class="pets-slider swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="slider-element swiper-slide">
+                    <div class="element-image element-image1">
+                    </div>
+                    <div class="info-part">
+                        <p class="info-title">Котик Даніель</p>
+                        <p>Через травму розвинувся некроз тканин шкіри, сильний заральний процес та загоєння, була перспектива ампутації</p>
+                    </div>
+                    <a class="learn-more" href="#">Дізнатися більше</a>
                 </div>
-                <div class="info-part">
-                    <p class="info-title">Котик Даніель</p>
-                    <p>Через травму розвинувся некроз тканин шкіри, сильний заральний процес та загоєння, була перспектива ампутації</p>
+                <div class="slider-element swiper-slide">
+                    <div class="element-image element-image2">
+                    </div>
+                    <div class="info-part">
+                        <p class="info-title">Пес Роман</p>
+                        <p>Через травму розвинувся некроз тканин шкіри, сильний заральний процес та загоєння, була перспектива ампутації</p>
+                    </div>
+                    <a class="learn-more" href="#">Дізнатися більше</a>
                 </div>
-                <a class="learn-more" href="#">Дізнатися більше</a>
-            </div>
-            <div class="slider-element">
-                <div class="element-image element-image2">
+                <div class="slider-element swiper-slide">
+                    <div class="element-image element-image3">
+                    </div>
+                    <div class="info-part">
+                        <p class="info-title">Марічка</p>
+                        <p>Через травму розвинувся некроз тканин шкіри, сильний заральний процес та загоєння, була перспектива ампутації</p>
+                    </div>
+                    <a class="learn-more" href="#">Дізнатися більше</a>
                 </div>
-                <div class="info-part">
-                    <p class="info-title">Пес Роман</p>
-                    <p>Через травму розвинувся некроз тканин шкіри, сильний заральний процес та загоєння, була перспектива ампутації</p>
+                <div class="slider-element swiper-slide">
+                    <div class="element-image element-image4">
+                    </div>
+                    <div class="info-part">
+                        <p class="info-title">Жартун</p>
+                        <p>Через травму розвинувся некроз тканин шкіри, сильний заральний процес та загоєння, була перспектива ампутації</p>
+                    </div>
+                    <a class="learn-more" href="#">Дізнатися більше</a>
                 </div>
-                <a class="learn-more" href="#">Дізнатися більше</a>
-            </div>
-            <div class="slider-element">
-                <div class="element-image element-image3">
+                <div class="slider-element swiper-slide">
+                    <div class="element-image element-image5">
+                    </div>
+                    <div class="info-part">
+                        <p class="info-title">Чарлі</p>
+                        <p>Через травму розвинувся некроз тканин шкіри, сильний заральний процес та загоєння, була перспектива ампутації</p>
+                    </div>
+                    <a class="learn-more" href="#">Дізнатися більше</a>
                 </div>
-                <div class="info-part">
-                    <p class="info-title">Марічка</p>
-                    <p>Через травму розвинувся некроз тканин шкіри, сильний заральний процес та загоєння, була перспектива ампутації</p>
+                <div class="slider-element swiper-slide">
+                    <div class="element-image element-image6">
+                    </div>
+                    <div class="info-part">
+                        <p class="info-title">Лео</p>
+                        <p>Через травму розвинувся некроз тканин шкіри, сильний заральний процес та загоєння, була перспектива ампутації</p>
+                    </div>
+                    <a class="learn-more" href="#">Дізнатися більше</a>
                 </div>
-                <a class="learn-more" href="#">Дізнатися більше</a>
             </div>
         </div>
+        <div style="position: relative; --swiper-theme-color: #A6DBB5; margin-top: 20px" class="swiper-pagination"></div>
     </section>
 
     <section class="help-save-live charity-section">
@@ -149,5 +180,16 @@
     </footer>
 
     <script src="scripts/slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
 </body>
 </html>
