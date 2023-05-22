@@ -177,14 +177,11 @@ submitButton.addEventListener('click', function(event) {
     else { ques.style.background="none";
         ques.style.border ="none";
     }
-
-    document.getElementById('overlay').style.visibility="visible";
-    frame.style.visibility="visible";
+ frame.style.visibility="visible";
 
 });
 
 function close_frame(){
-    document.getElementById('overlay').style.visibility="hidden";
     frame.style.visibility="hidden";
     phoneInput.value='';
     phoneInput.placeholder='Номер телефону';
