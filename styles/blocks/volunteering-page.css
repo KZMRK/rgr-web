@@ -350,16 +350,7 @@ body{
     right: 0;
     margin:9px 9px ;
 }
-#overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 98.91vw;
-    height: 670vh;
-    z-index:3; 
-    background-color:rgba(0, 0, 0, 0.7);
-    visibility: hidden;
-}
+
 
 .mySlides, .photo-row{
     display: none;
