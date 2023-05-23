@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/libs/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Hatiko</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a class="logo" href="index.html">
+                    <img src="images/logo.svg" alt="logo">
+                </a>
+                <nav class="nav">
+                    <a href="index.html" class="nav__item">Про нас</a>
+                    <a href="charity.html" class="nav__item">Благодійність</a>
+                    <a href="volunteering.html" class="nav__item">Волонтерство</a>
+                    <a href="#" class="nav__item">Взяти тваринку</a>
+                    <a href="#" class="nav__item active">Знайшли тваринку?</a>
+                </nav>
+            </div>   
+        </div>
+    </header>
+    <section class="dont-know-what-to-do">
+        <img src="images/foundpet-img1.png" alt="">
+        <div class="case-1">
+            <h3>Знайшли тваринку?</h3>
+        </div>
+        <div class="more-text">
+            <div class="half">
+                <div class="case-2">
+                    <h3>Ваш улюбленець народив, а Ви не в змозі утримувати всіх?</h3>
+                </div>
+                <div class="case-3">
+                    <h3>Не знаєте що робити?</h3>
+                </div>
+            </div>
+            <div class="half">
+                <div class="case-4">
+                    <h3>Стали свідками жорстокого ставлення до собачки?</h3>
+                </div>
+                <div class="case-5">
+                    <h3>Вам підкинули котика?</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="found-pet-form">
+        <h2>Заповнюйте форму і ми з Вами зв’яжемося!</h2>
+        <form action="">
+            <div class="form">
+                <div class="form-part1">
+                    <input type="text" id="name-input" class="input-small" placeholder="Ім'я" required >
+                    <input type="tel" id="number-input" class="input-small number" placeholder="Номер телефону" required>
+                    <textarea id="pet-description" class="input-large" placeholder="Опис тваринки" required></textarea>
+                </div>
+                <div class="form-part2">
+                    <textarea id="add-info" class="input-large" placeholder="Інформація, яку нам варто знати (важливі деталі, тощо)" required></textarea>
+                    <input type="submit" id="send-request" class="submit-button"  value="Надіслати запит"/>
+                </div>
+            </div>
+        </form>
+    </section>
+    <div class="OR-text">
+        <h1>АБО</h1>
+    </div>
+    <section class="map-section">
+        <h2>Привозьте тваринку до нас!</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10282.47455708792!2d23.940755818565968!3d49.8871879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ade8a9108ce69%3A0x6e0865c15856818b!2z0KLQstCw0YDQuNC90L3QuNC5INC_0YDQuNGC0YPQu9C-0LogItCc0LjQu9C-0YHQtdGA0LTRjyI!5e0!3m2!1suk!2sua!4v1684843921230!5m2!1suk!2sua"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <div class="thank-frame" id="thank-frame">
+        <button onclick="close_frame()">
+            <img src="images/vectors/vector-close.png" alt="">
+        </button>
+        <div class="inner-frame">
+            <h2>Ми розглянемо Ваш запит і зв’яжемося!</h2>
+        </div>
+    </div>
+
+    <div class="footer-img">
+        <img class="overlap-img" src="images/cat_dog.svg" alt="Overlap Image">
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+            <div class="footer-col1">
+                <a href="index.html"><img src="images/logo.svg" alt="Logo"></a>
+                <p>Подаруй свою любов та турботу тваринам в нашому притулку</p>
+                <small>©Hatiko 2023. Всі права захищені</small>
+            </div>
+            <div class="footer-col2">
+                <h3>Загальна інформація</h3>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="index.html" class="footer__item">Про нас</a></li>
+                        <li><a href="charity.html" class="footer__item">Благодійність</a></li>
+                        <li><a href="volunteering.html" class="footer__item">Волонтерство</a></li>
+                        <li><a href="#" class="footer__item">Взяти тваринку</a></li>
+                        <li><a href="#" class="footer__item active">Знайшли тваринку?</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-col3">
+                <button>Хочу друга</button>
+                <div class="social-media">
+                <a href="#"><img src="images/social1.svg" alt="Social Media"></a>
+                <a href="#"><img src="images/social2.svg" alt="Social Media"></a>
+                <a href="#"><img src="images/social3.svg" alt="Social Media"></a>
+                <a href="#"><img src="images/social4.svg" alt="Social Media"></a>
+                </div>
+            </div>
+            </div>
+        </div>
+        </footer>      
+        
+        <img id="dont-know-vector" src="images/vectors/Vector-star-green2.png" alt="">
+        <img id="map-vector1" src="images/vectors/Vector-paw-orange1.png" alt="">
+        <img id="map-vector2" src="images/vectors/Vector-paw-orange2.png" alt="">
+
+        <script async src="scripts/foundpet.js"></script>
+        <script src="scripts/phone-input.js"></script>
+        
+    </body>
+</html>

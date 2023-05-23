@@ -12,6 +12,7 @@
 @import url('../blocks/passport-take-animal-page.css');
 @import url('../blocks/charity-page.css');
 @import url(../blocks/learn-more-page.css);
+@import url('../blocks/foundpet-page.css');
 
 *{
     font-family: 'Mulish', sans-serif;
