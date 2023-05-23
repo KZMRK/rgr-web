@@ -98,15 +98,15 @@
 }
 #map-vector1{
     position: absolute;
-    top: 1980px;
-    right: 55px;
-    transform:scale(0.8);
+    top: 1910px;
+    right: 60px;
+    /* transform:scale(0.8); */
     z-index: -1;
 }
 #map-vector2{
     position: absolute;
-    left: 315;
-    top: 2395px;
+    left: 100px;
+    top: 2460px;
     z-index: -1;
     transform:scale(0.6);
 }
