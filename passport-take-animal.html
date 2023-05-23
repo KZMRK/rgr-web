@@ -29,7 +29,7 @@
   </div>
 </header>
 
-<section class = "passport-info">
+<section style="margin-bottom: 100px" class = "passport-info">
   <h1>Паспорт</h1>
   <div class = "passport">
     <img src="images/pet1.png" alt="Котик Обама">
@@ -62,7 +62,7 @@
   </div>
 </section>
 
-<section class = "passport-info">
+<section style="margin-bottom: 100px" class = "passport-info">
   <h1>Історія</h1>
   <div class="history-box">
     <h2>Той, що вижив у Ірпенському пеклі</h2>
@@ -81,12 +81,33 @@
 
 <section class = "passport-info">
   <h1>Анкета</h1>
-  <div class="form-take-animal">
-
-  </div>
+  <form action="">
+    <div class="form">
+      <div class="form-part1">
+        <input type="text" id="name-input" class="input-small" placeholder="Ім'я" required >
+        <input type="tel" id="number-input" class="input-small number" placeholder="Номер телефону" required>
+        <input type="email" id="email-input" class="input-small number" placeholder="Емейл" required>
+        <input type="submit" id="send-request" class="submit-button"  value="Хочу забрати!"/>
+      </div>
+      <div class="form-part2">
+        <textarea id="why-interested" class="input-large" placeholder="Розкажіть чому Вас зацікавила саме ця тваринка?" required></textarea>
+        <textarea id="user-info" class="input-large" placeholder="Розкажіть трішки про себе" required></textarea>
+      </div>
+    </div>
+  </form>
 </section>
 
-<div style="margin-top: 300px" class="footer-img">
+<div class="thank-frame" id="thank-frame">
+  <button onclick="close_frame()">
+    <img src="images/vectors/vector-close.png" alt="">
+  </button>
+  <div class="inner-frame">
+    <h2>Ми розглянемо Ваш запит і зв’яжемося!</h2>
+  </div>
+</div>
+
+
+<div style="margin-top: 200px" class="footer-img">
   <img class="overlap-img" src="images/cat_dog.svg" alt="Overlap Image">
 </div>
 
@@ -125,6 +146,7 @@
   </div>
 </footer>
 
-
+<script src="scripts/phone-input.js"></script>
+<script src="scripts/form-take-animal.js"></script>
 </body>
 </html>

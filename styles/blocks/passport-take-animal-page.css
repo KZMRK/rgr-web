@@ -1,5 +1,4 @@
 .passport-info{
-    padding-top: 20px;
     width: 1120px;
     display: flex;
     flex-direction: column;
@@ -14,7 +13,7 @@
     font-weight: 700;
     font-family: 'Mulish', sans-serif;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 
