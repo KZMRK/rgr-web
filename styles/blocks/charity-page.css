@@ -129,4 +129,15 @@
     object-fit: cover;
 }
 
+.charity-page-info .vector-img .vector_green {
+    left: -82.03px;
+    top: 500px;
+    z-index: -1;
+}
+
+.charity-section .vector-img .vector_orange {
+    position: absolute;
+    top: 2100px;
+    z-index: -1;
+}
 
