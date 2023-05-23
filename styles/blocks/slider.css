@@ -68,6 +68,12 @@
     height: 210px;
 }
 
+
+.slider .vect img {
+    width: 220px;
+    height: 260px;
+}
+
 .slider .cat p {
     font-family: 'Mulish';
     font-style: normal;
