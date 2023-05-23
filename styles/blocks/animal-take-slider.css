@@ -1,0 +1,163 @@
+.animal-object-info {
+    width: 350px;
+    height: 512px;
+    background: #FFA464;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow: 5px 20px 25px rgba(229, 233, 246, 0.4); /* Змінено */
+
+}
+
+.slider-for-animal-object {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 35px;
+    overflow: visible;
+    transform: translateX(0); /* Додано */
+    transition: transform 0.5s ease-in-out; /* Додано */
+    margin-top: 50px;
+    justify-content: center;
+}
+.slider-container {
+    position: relative;
+    width: 1120px;
+    margin: 0 auto;
+    overflow: visible;
+}
+
+.slider-for-animal-object .animal-object-info {
+    flex: 0 0 350px;
+}
+
+.slider-for-animal-object .info-part {
+    margin-top: 10px;
+    padding: 25px 40px 0;
+}
+
+.slider-for-animal-object .info-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    padding-bottom: 5px;
+}
+
+.red-cat{
+    background-image: url("../../images/pet1.png");
+}
+
+.cute-dog {
+    background-image: url("../../images/pet2.png");
+}
+
+.pes-patron{
+    background-image: url("../../images/pes-patron.png");
+}
+.cat-misha {
+    background-image: url("../../images/cat-misha.png");
+}
+
+.old-baron{
+    background-image: url("../../images/old-baron.png");
+}
+
+.cat-diana{
+    background-image: url("../../images/сat-diana.png");
+}
+
+.cat-manya{
+    background-image: url("../../images/cat-manya.png");
+}
+
+.fluffy-dog{
+    background-image: url("../../images/fluffy-dog.png");
+}
+
+.cat-ben{
+    background-image: url("../../images/kitty.jpg");
+}
+.animal-object-info .animal-image {
+    height: 265px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.animal-object-info {
+    width: 350px;
+    height: 512px;
+    background: #FFA464;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+
+.slider-controls {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-button {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    background: #FFA464;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.prev-button {
+    margin-right: 10px;
+}
+
+.next-button {
+    margin-left: 10px;
+}
+
+.prev-button.disabled {
+    background: #FFD7B5;
+    cursor: not-allowed;
+}
+
+.next-button.disabled {
+    background: #FFD7B5;
+    cursor: not-allowed;
+}
+
+.current-page {
+    font-size: 20px;
+    font-family: "Mulish";
+    color: #808080;
+    margin: 10px;
+}
+
+
+.take-animal-button{
+    display: block;
+    width: 235px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 18px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #433C3C;
+    margin: 30px auto;
+}
+
+.take-animal-button:hover {
+    background-color: rgb(95, 95, 101);
+}
+
+

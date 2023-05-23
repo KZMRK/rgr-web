@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/libs/style.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <title>Hatiko</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a class="logo" href="index.html">
+          <img src="images/logo.svg" alt="logo">
+        </a>
+        <nav class="nav">
+          <a href="index.html" class="nav__item">Про нас</a>
+          <a href="charity.html" class="nav__item">Благодійність</a>
+          <a href="volunteering.html" class="nav__item">Волонтерство</a>
+          <a href="take-animal.html" class="nav__item active">Взяти тваринку</a>
+          <a href="#" class="nav__item">Знайшли тваринку?</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="take-animal-info">
+    <h1>ЇМ ЧАС ЗНАЙТИ СВІЙ ДІМ</h1>
+    <h2>Якщо Ви хочете взяти тваринку з нашого притулку - ознайомтесь з <a href="#rule-of-adoption">правилами адопції</a></h2>
+    <img id = "photo-3" src="/images/Vector_green_paw.svg" alt="">
+  </div>
+
+  <section class = "filtration-animals">
+  <div class = "container">
+  <div class ="filtration-params">
+      <select id="сhoose-kind">
+        <option value="option1">Вид тваринки</option>
+        <option value="option2">Кіт</option>
+        <option value="option3">Пес</option>
+      </select>
+      <select id="choose-age">
+        <option value="option1">Вік</option>
+        <option value="option2">До року</option>
+        <option value="option3">1-2 роки</option>
+        <option value="option4">3-5 роки</option>
+        <option value="option5">6-10 років</option>
+        <option value="option6">10+ років</option>
+      </select>
+
+      <select id="choose-size">
+        <option value="option1">Розмір</option>
+        <option value="option2">Маленький</option>
+        <option value="option3">Середній</option>
+        <option value="option3">Великий</option>
+      </select>
+
+    <button class = "button-search">Пошук</button>
+  </div>
+  </div>
+
+  <div class="slider-container">
+    <div class="slider-for-animal-object">
+      <div class="animal-object-info">
+        <div class="animal-image red-cat"></div>
+        <div class="info-part">
+          <p class="info-title">Котик Обама</p>
+          <p>Вік: 2+ роки</p>
+          <p>Стерилізований</p>
+          <p>Тактильний, активний розбишака</p>
+          <a class="take-animal-button " href="#">Забрати</a>
+        </div>
+
+      </div>
+
+      <div class="animal-object-info">
+        <div class="animal-image cat-misha"></div>
+        <div class="info-part">
+          <p class="info-title">Кішка Міша</p>
+          <p>Вік: 1 рік</p>
+          <p>Стерилізована</p>
+          <p>Говірлива, уперта милашка</p>
+          <a class="take-animal-button " href="#">Забрати</a>
+        </div>
+      </div>
+      <div class="animal-object-info">
+        <div class="animal-image old-baron"></div>
+        <div class="info-part">
+          <p class="info-title">Пес Барон</p>
+          <p>Вік: 7 років</p>
+          <p>Стерилізований</p>
+          <p>Серйозний, спокійний дідуган</p>
+          <a class="take-animal-button " href="#">Забрати</a>
+        </div>
+      </div>
+
+      <div class="animal-object-info">
+        <div class="animal-image pes-patron"></div>
+        <div class="info-part">
+          <p class="info-title">Пес Патрон</p>
+          <p>Вік: 2 роки</p>
+          <p>Стерилізований</p>
+          <p>Товариський, активний мисливець</p>
+          <a class="take-animal-button " href="#">Забрати</a>
+        </div>
+      </div>
+      <div class="animal-object-info">
+        <div class="animal-image cat-diana"></div>
+        <div class="info-part">
+          <p class="info-title">Кішка Діана</p>
+          <p>Вік: 4 роки</p>
+          <p>Стерилізована</p>
+          <p>Спокійна, вередлива панянка</p>
+          <a class="take-animal-button " href="#">Забрати</a>
+        </div>
+      </div>
+
+      <div class="animal-object-info">
+        <div class="animal-image cute-dog"></div>
+        <div class="info-part">
+          <p class="info-title">Пес П'єр</p>
+          <p>Вік: 3 роки</p>
+          <p>Стерилізований</p>
+          <p>Рятівник хорошого настрою</p>
+          <a class="take-animal-button " href="#">Забрати</a>
+        </div>
+      </div>
+
+      <div class="animal-object-info">
+        <div class="animal-image cat-manya"></div>
+        <div class="info-part">
+          <p class="info-title">Котеня Маня</p>
+          <p>Вік: 2 місяці</p>
+          <p>Нестерилізована</p>
+          <p>Дослідниця усіх закутків</p>
+          <a class="take-animal-button " href="#">Забрати</a>
+        </div>
+      </div>
+
+      <div class="animal-object-info">
+        <div class="animal-image fluffy-dog"></div>
+        <div class="info-part">
+          <p class="info-title">Пес Ріо</p>
+          <p>Вік: 7 років</p>
+          <p>Стерилізований</p>
+          <p>Великий друг усіх дітей</p>
+          <a class="take-animal-button " href="#">Забрати</a>
+        </div>
+      </div>
+      <div class="animal-object-info">
+        <div class="animal-image cat-ben"></div>
+        <div class="info-part">
+          <p class="info-title">Котик Бен</p>
+          <p>Вік: 5 місяців</p>
+          <p>Нестерилізований</p>
+          <p>Рятівник хорошого настрою</p>
+          <a class="take-animal-button " href="#">Забрати</a>
+        </div>
+      </div>
+      <div class="animal-object-info">
+        <div class="animal-image cat-diana"></div>
+        <div class="info-part">
+          <p class="info-title">Кішка Діана</p>
+          <p>Вік: 4 роки</p>
+          <p>Стерилізована</p>
+          <p>Спокійна, вередлива панянка</p>
+          <a class="take-animal-button " href="#">Забрати</a>
+        </div>
+      </div>
+      <div class="animal-object-info">
+        <div class="animal-image pes-patron"></div>
+        <div class="info-part">
+          <p class="info-title">Пес Патрон</p>
+          <p>Вік: 2 роки</p>
+          <p>Стерилізований</p>
+          <p>Товариський, активний мисливець</p>
+          <a class="take-animal-button " href="#">Забрати</a>
+        </div>
+      </div>
+    </div>
+    <div class="slider-controls">
+      <button class="slider-button prev-button">←</button>
+      <span class="current-page">1</span>
+      <button class="slider-button next-button">→</button>
+    </div>
+    </div>
+
+    <img id = "photo-1" src="/images/vectors/Vector-star-orange1.png" alt="">
+
+  </section>
+
+
+
+<section id="rule-of-adoption">
+  <div class="slider_title">
+      Правила адопції
+    </div>
+    <div class="slider">
+      <div class="slide active">
+        <h2>Співбесіда та договір</h2>
+        <div class="line"></div>
+        <div class="info">
+          <div class="vect">
+            <img src="images/interview-slider.svg" alt="Інтерв'ю">
+          </div>
+          <div class="description">
+            <p>Інтерв’ю - обов'язковий етап адопції. Менеджер задасть тобі питання, відповіді на які допоможуть зрозуміти твою готовність до появи нового члена сім'ї, допоможе з вибором чотирилапого друга, надасть консультацію по догляду. Тривалість близько 40 хвилин.
+              Заключаємо договір про передачу тварини. Менеджер може надіслати договір для попереднього ознайомлення.</p>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <h2>Тварини не віддаються на ланцюг</h2>
+        <div class="line"></div>
+        <div class="info">
+          <div class="vect">
+            <img src="images/dog-walking.svg" alt="Тварини не віддаються на ланцюг">
+          </div>
+          <div class="description">
+            <p>Кожна тварина заслуговує на гідний догляд та умови утримання.
+              Саме тому тварини не віддаються на ланцюг, на самовигул, на подарунок чи на підприємство.
+              Просторий вольєр можливий, але навіть він підходить не кожному.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h2>Переноска обов'язкова</h2>
+        <div class="line"></div>
+        <div class="info">
+          <div class="vect">
+            <img src="images/dog-walking-2.svg" alt="Переноска обов'язкова">
+          </div>
+          <div class="description">
+            <p>Якщо Ви їдете за котиком, наявність переноски є обов’язковою. Якщо за песиком, наявність нашийника і
+              повідка є обов’язковою (або ж ми їх можемо придбати за попередьою домовленістю)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <h2>Відмова у адопції</h2>
+        <div class="line"></div>
+        <div class="info">
+          <div class="vect">
+            <img src="images/cancel-adopt.svg" alt="Відмова у адопції">
+          </div>
+          <div class="description">
+            <p>Менеджер має право відмовити в адопції, якщо вважатиме, що на те є об'єктивні підстави.
+              Хвостики мають потрапляти до відповідальних людей, які готові надати комфортні та безпечні умови для їх утримання.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="controls">
+    <button class="prev">←</button>
+    <div class="indicators">
+    </div>
+    <button class="next">→</button>
+  </div>
+  <img id = "photo-2" src="/images/Vector_orange_paw.svg" alt="">
+
+</section>
+
+    <div style="margin-top: 300px" class="footer-img">
+      <img class="overlap-img" src="images/cat_dog.svg" alt="Overlap Image">
+    </div>
+
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-col1">
+          <a href="index.html"><img src="images/logo.svg" alt="Logo"></a>
+          <p>Подаруй свою любов та турботу тваринам в нашому притулку</p>
+          <small>©Hatiko 2023. Всі права захищені</small>
+        </div>
+        <div class="footer-col2">
+          <h3>Загальна інформація</h3>
+          <div class="footer-links">
+            <ul>
+              <li><a href="index.html" class="footer__item">Про нас</a></li>
+              <li><a href="charity.html" class="footer__item">Благодійність</a></li>
+              <li><a href="volunteering.html" class="footer__item">Волонтерство</a></li>
+              <li><a href="take-animal.html" class="footer__item active">Взяти тваринку</a></li>
+              <li><a href="#" class="footer__item">Знайшли тваринку?</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-col3">
+          <button onclick="window.location.href='take-animal.html'">Хочу друга</button>
+          <div class="social-media">
+            <a href="#"><img src="images/social1.svg" alt="Social Media"></a>
+            <a href="#"><img src="images/social2.svg" alt="Social Media"></a>
+            <a href="#"><img src="images/social3.svg" alt="Social Media"></a>
+            <a href="#"><img src="images/social4.svg" alt="Social Media"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/take-animal.js"></script>
+  <script src="scripts/slider.js"></script>
+  <script src="scripts/slider-animal-objects.js"></script>
+</body>
+</html>
