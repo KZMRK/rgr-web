@@ -1,4 +1,4 @@
-.dont-know-what-to-do, .found-pet-form, .OR-text, .map{
+.dont-know-what-to-do, .found-pet-form, .OR-text, .map-section{
     width: 1171px;
     display: flex;
     flex-direction: column;
@@ -56,14 +56,18 @@
 .found-pet-form {
     margin-top: 630px;
 }
-.found-pet-form h2, .map h2{
+.found-pet-form h2, .map-section h2{
     font-weight: 700;
     font-size: 40px;
     line-height: 60px;
 }
 .found-pet-form .form{
     width: 1120px;
-    height: 531px;
+    height:min-content;
+    /* padding-bottom: 75px; */
+}
+.form .form-part2{
+    justify-content: space-around;
 }
 
 .OR-text h1{
@@ -76,8 +80,16 @@
     margin: 100px 0;
 }
 
-
-
+.map-section{
+    margin-bottom: 50px;
+}
+.map-section iframe{
+    width: 930px;
+    height: 520px;
+    z-index: 1;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 #dont-know-vector{
     position: absolute;
@@ -89,11 +101,12 @@
     top: 2019px;
     right: 55px;
     transform:scale(0.8);
+    z-index: -1;
 }
 #map-vector2{
     position: absolute;
     left: 315;
     top: 2395px;
-    z-index: -5;
+    z-index: -1;
     transform:scale(0.6);
 }

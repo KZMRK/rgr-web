@@ -56,18 +56,24 @@
         <h2>Заповнюйте форму і ми з Вами зв’яжемося!</h2>
         <form action="">
             <div class="form">
-
+                <div class="form-part1">
+                    <input type="text" id="name-input" class="input-small" placeholder="Ім'я" required >
+                    <input type="tel" id="number-input" class="input-small number" placeholder="Номер телефону" required>
+                    <textarea id="pet-description" class="input-large" placeholder="Опис тваринки" required></textarea>
+                </div>
+                <div class="form-part2">
+                    <textarea id="add-info" class="input-large" placeholder="Інформація, яку нам варто знати (важливі деталі, тощо)" required></textarea>
+                    <input type="submit" id="send-request" class="submit-button"  value="Надіслати запит"/>
+                </div>
             </div>
         </form>
     </section>
     <div class="OR-text">
         <h1>АБО</h1>
     </div>
-    <section class="map">
+    <section class="map-section">
         <h2>Привозьте тваринку до нас!</h2>
-        <div>
-            
-        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10282.47455708792!2d23.940755818565968!3d49.8871879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ade8a9108ce69%3A0x6e0865c15856818b!2z0KLQstCw0YDQuNC90L3QuNC5INC_0YDQuNGC0YPQu9C-0LogItCc0LjQu9C-0YHQtdGA0LTRjyI!5e0!3m2!1suk!2sua!4v1684843921230!5m2!1suk!2sua"style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
     <footer>
@@ -106,5 +112,8 @@
         <img id="dont-know-vector" src="images/vectors/Vector-star-green2.png" alt="">
         <img id="map-vector1" src="images/vectors/Vector-paw-orange1.png" alt="">
         <img id="map-vector2" src="images/vectors/Vector-paw-orange2.png" alt="">
+
+        <script async src="foundpet.html"></script>
+        
     </body>
-    </html>
+</html>
