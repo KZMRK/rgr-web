@@ -60,7 +60,16 @@
     float: right;
     font-style: italic;
 }
-
+.history-box h3 {
+    padding-top: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-align: center;
+}
 
 .history-box {
     width: 1120px;
@@ -72,6 +81,7 @@
     margin: 0 auto;
     overflow: hidden;
 }
+
 .history-box-title{
     font-family: 'Mulish';
     font-style: normal;
