@@ -81,7 +81,7 @@
 }
 
 .map-section{
-    margin-bottom: 50px;
+    margin-bottom: 270px;
 }
 .map-section iframe{
     width: 930px;
@@ -98,7 +98,7 @@
 }
 #map-vector1{
     position: absolute;
-    top: 2019px;
+    top: 1980px;
     right: 55px;
     transform:scale(0.8);
     z-index: -1;
