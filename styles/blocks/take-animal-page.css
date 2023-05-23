@@ -83,7 +83,7 @@
     top: 80%;
     left: 80%;
     transform: translate(-50%, -80%);
-    z-index: 0;
+    z-index: -1;
     width: 338px;
     height: 512px;
 }
@@ -94,7 +94,7 @@
     top: 80%;
     left: 20%;
     transform: translate(-50%, -20%);
-    z-index: 0;
+    z-index: -1;
     width: 346px;
     height: 333px;
 }
@@ -104,7 +104,7 @@
     top: 40%;
     left: 0;
     transform: translate(-20%, -20%);
-    z-index: 0;
+    z-index: -1;
     width: 346px;
     height: 333px;
 }
