@@ -14,15 +14,130 @@
     font-weight: 700;
     font-family: 'Mulish', sans-serif;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.passport-general-rectangle{
-    position: absolute;
-    width: 1115px;
-    height: 600px;
-    left: 245px;
-    top: 389px;
 
-    background: #433C3C;
+.passport-info .passport {
+    background-color: #433C3C;
+    width: 1120px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+
+.passport-info .passport img {
+    border-radius: 50%;
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+}
+
+.passport-info .pet-info {
+    width: 300px;
+    font-size: 24px;
+}
+
+.passport-info .pet-info .info-block {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 27px;
+}
+
+.passport-info .pet-info .info-block:last-child {
+    margin-bottom: 0;
+}
+
+.passport-info .pet-info .info-block .key {
+    color: #FF8833;
+}
+.passport-info .pet-info .info-block .value {
+    float: right;
+    font-style: italic;
+}
+
+
+.history-box {
+    width: 1120px;
+    height: 470px;
+    background-color: #FFA564;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.history-box-title{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+    text-align: center;
+    padding: 100px;
+}
+
+.history-box h2 {
+    padding-top: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.history-box .line {
+    width: 56px;
+    height: 2.2px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin: 20px auto;
+}
+
+.history-box .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 120px;
+}
+
+.history-box .info .cat img {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.history-box .cat p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.history-box .description{
+    padding: 30px;
+    max-width: 600px;
+}
+
+.history-box .description p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+

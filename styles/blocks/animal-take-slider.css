@@ -14,8 +14,8 @@
     grid-template-rows: repeat(auto-fit, minmax(350px, 1fr));
     gap: 35px;
     overflow: visible;
-    transform: translateX(0); /* Додано */
-    transition: transform 0.5s ease-in-out; /* Додано */
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
     margin-top: 50px;
     justify-content: center;
 }
