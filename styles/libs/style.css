@@ -11,6 +11,7 @@
 @import url('../blocks/take-animal-page.css');
 @import url('../blocks/charity-page.css');
 @import url('../blocks/animal-take-slider.css');
+@import url('../blocks/passport-take-animal-page.css');
 *{
     font-family: 'Mulish', sans-serif;
     margin: 0;
